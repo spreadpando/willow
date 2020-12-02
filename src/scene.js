@@ -11,7 +11,7 @@ const Scene = () => {
       <pointLight position={[40, 40, 40]} />
       <OrbitControls />
       <Suspense fallback={null}>
-        <Avatar />
+        <Avatar animation />
       </Suspense>
     </Canvas>
   )

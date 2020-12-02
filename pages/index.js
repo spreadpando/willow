@@ -1,4 +1,5 @@
 import Scene from '../src/scene'
+// import Controls from '../src/controls'
 import styled from 'styled-components'
 
 const Cnvs = styled('div')`
@@ -10,6 +11,7 @@ const IndexPage = () => {
   return (
     <Cnvs>
       <Scene />
+      {/* <Controls /> */}
     </Cnvs>
 
   )
